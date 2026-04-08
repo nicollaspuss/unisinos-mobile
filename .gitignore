@@ -1,0 +1,38 @@
+# Expo / React Native
+node_modules/
+.expo/
+.expo-shared/
+web-build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Build output
+android/
+ios/
+
+# Environment
+.env
+.env.*
+
+# Misc
+*.log
+
+# Ignorar package-lock apenas se não quiser versionar dependências (normalmente é recomendado manter)
+# package-lock.json
