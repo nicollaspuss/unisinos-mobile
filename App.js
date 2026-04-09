@@ -6,7 +6,6 @@ import {
   FlatList,
   Image,
   TouchableOpacity,
-  SafeAreaView,
   ScrollView,
   TextInput,
 } from 'react-native';
@@ -14,9 +13,9 @@ import {
 const PRODUCTS = [
   {
     id: '1',
-    name: 'Queijo Artesanal da Serra',
-    description: 'Queijo colonial curado por 30 dias, produzido com leite de vaca. Sabor marcante e textura cremosa. Ideal para acompanhar vinhos e pães.',
-    origin: 'Serra Gaúcha, RS',
+    name: 'Produtos Coloniais - São Leopoldo - RS',
+    description: 'Quejos, mel, salame e suco de uva da melhor qualidade.',
+    origin: 'São Leopoldo, RS',
     producerId: 'prod1',
     image: 'https://images.unsplash.com/photo-1486297678162-ad2a19b05840?auto=format&fit=crop&w=300&q=80',
     rating: 4.8,

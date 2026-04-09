@@ -6,7 +6,7 @@ Este projeto apresenta o desenvolvimento de uma aplicação móvel para a comerc
 ## 2. Entidade Parceira e Justificativa de Extensão
 - **Entidade:** Empreendimento Familiar de Produtos Coloniais [Nome do Pai]
 - **Segmento:** Agronegócio Familiar / Pequeno Produtor Rural
-- **Principais Produtos:** Queijo, Salame, Suco de Uva e Mel.
+- **Principais Produtos:** Queijo, Salame, Suco de Uva, Mel, entre outros..
 
 ### 2.1. Impacto Social e Ação Extensionista
 Este projeto cumpre o objetivo de **contato com a sociedade** e **atendimento a demandas reais**, conforme solicitado pela atividade acadêmica. A solução propõe:
@@ -15,7 +15,7 @@ Este projeto cumpre o objetivo de **contato com a sociedade** e **atendimento a 
 - **Valorização da Cultura Local:** Promoção de produtos artesanais da região, fortalecendo a economia de base familiar.
 
 ## 3. Objetivo do Projeto
-Desenvolver um aplicativo multiplataforma que permita aos clientes visualizar o catálogo de produtos disponíveis, selecionar itens e realizar pedidos diretamente via WhatsApp, otimizando o processo de venda e atendimento.
+O objetivo do aplicativo multiplataforma permite aos clientes visualizarem o catálogo de produtos disponíveis, selecionar itens e realizar pedidos diretamente via WhatsApp, otimizando o processo de venda e atendimento.
 
 ## 4. Requisitos do Sistema
 

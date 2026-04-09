@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "colonial-app",
-    "slug": "colonial-app",
+    "name": "Guia Colonial",
+    "slug": "Guia Colonial",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./guia_colonial_app.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
