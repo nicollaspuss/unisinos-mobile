@@ -1,27 +1,36 @@
-# Avaliação e Certificação de Qualidade de Produtos Coloniais no RS sem fins lucrativos
+# 🌾 Avaliação e Certificação de Produtos Coloniais (RS)
 
-Este aplicativo foi desenvolvido como parte de um desafio acadêmico para auxiliar na comercialização de produtos artesanais (Queijo, Salame, Suco de Uva e Mel).
+Este aplicativo foi desenvolvido como parte de um desafio acadêmico sem fins lucrativos. O objetivo é fortalecer a comercialização de produtos artesanais (Queijo, Salame, Suco de Uva e Mel) através da visibilidade proporcionada pelo **Selo Colonial Brasil**.
 
 ## Tecnologias Utilizadas
-- React Native 0.83.4
-- Expo SDK 55
-- React 19.2.3
-- JavaScript (ES6+)
+- **React Native 0.83.4**
+- **Expo SDK 55**
+- **React 19.2.3**
+- **React Native Safe Area Context**: Gerenciamento de áreas seguras para dispositivos com "notch".
 
-## Pré-requisitos
-- Node.js (versão 18 ou superior) - [Download aqui](https://nodejs.org/)
-- npm ou yarn
-- App Expo Go instalado no celular (Android ou iOS) - [Download na App Store ou Google Play](https://expo.dev/client)
+## Estrutura Modular (Refatorada)
+Para facilitar a manutenção, o projeto foi dividido em módulos:
+- `src/data/`: Centralização dos dados (Produtos e Produtores).
+- `src/components/`: Componentes visuais reutilizáveis (Ex: Estrelas de avaliação).
+- `src/screens/`: Telas da aplicação (Home, Detalhes e Perfil).
+- `src/styles/`: Padronização de cores e temas.
+- `App.js`: Controlador principal de navegação e estado.
 
-## Como Executar
-1. **Clone ou baixe o repositório**: Certifique-se de ter o código do projeto na sua máquina.
+## 📋 Pré-requisitos
+- **Node.js**: Versão 18 ou superior.
+- **Expo Go**: Instalado no smartphone (Android ou iOS).
+
+## ⚙️ Como Executar
+
+1. **Clone ou baixe o repositório**:
+   Certifique-se de que a pasta `src` e o arquivo `App.js` estejam na mesma raiz.
 
 2. **Instale as dependências**:
-   ```
+   No terminal, execute:
+   ```bash
    npm install
-   ```
-   Este comando instalará todas as dependências necessárias, incluindo React Native, Expo e outras bibliotecas.
-
+   npx expo install react-native-safe-area-context
+   
 3. **Inicie o servidor de desenvolvimento**:
    ```
    npx expo start
@@ -42,6 +51,5 @@ Este aplicativo foi desenvolvido como parte de um desafio acadêmico para auxili
 - `App.js`: Lógica principal do aplicativo, interface e integração com WhatsApp.
 - `package.json`: Gerenciamento de dependências.
 - `README.md`: Instruções de uso e documentação.
-
 ---
 *Desenvolvido para o projeto de extensão acadêmica.*

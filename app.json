@@ -1,16 +1,11 @@
 {
   "expo": {
     "name": "Guia Colonial",
-    "slug": "Guia Colonial",
+    "slug": "Guia-Colonial",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./guia_colonial_app.png",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -19,12 +14,11 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": ""
     }
   }
 }
