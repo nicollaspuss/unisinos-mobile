@@ -1,6 +1,7 @@
-# 🌾 Avaliação e Certificação de Produtos Coloniais (RS)
+## Avaliação e Certificação de Qualidade de Produtos Coloniais no RS sem fins lucrativos
 
-Este aplicativo foi desenvolvido como parte de um desafio acadêmico sem fins lucrativos. O objetivo é fortalecer a comercialização de produtos artesanais (Queijo, Salame, Suco de Uva e Mel) através da visibilidade proporcionada pelo **Selo Colonial Brasil**.
+Este aplicativo foi desenvolvido como parte de um desafio acadêmico sem fins lucrativos. 
+O objetivo é fortalecer a comercialização de produtos artesanais (Queijo, Salame, Suco de Uva e Mel) através da visibilidade proporcionada pelo **Selo Colonial Brasil**.
 
 ## Tecnologias Utilizadas
 - **React Native 0.83.4**
@@ -9,9 +10,9 @@ Este aplicativo foi desenvolvido como parte de um desafio acadêmico sem fins lu
 - **React Native Safe Area Context**: Gerenciamento de áreas seguras para dispositivos com "notch".
 
 ## Estrutura Modular (Refatorada)
-Para facilitar a manutenção, o projeto foi dividido em módulos:
-- `src/data/`: Centralização dos dados (Produtos e Produtores).
-- `src/components/`: Componentes visuais reutilizáveis (Ex: Estrelas de avaliação).
+O projeto foi dividido em módulos:
+- `src/data/`: Centralização dos dados.
+- `src/components/`: Componentes visuais reutilizáveis (Ex: Avaliação do produto).
 - `src/screens/`: Telas da aplicação (Home, Detalhes e Perfil).
 - `src/styles/`: Padronização de cores e temas.
 - `App.js`: Controlador principal de navegação e estado.
@@ -48,7 +49,7 @@ Para facilitar a manutenção, o projeto foi dividido em módulos:
 - Para limpar o cache, execute `npx expo start --clear`.
 
 ## Estrutura de Arquivos
-- `App.js`: Lógica principal do aplicativo, interface e integração com WhatsApp.
+- `App.js`: Lógica principal do aplicativo.
 - `package.json`: Gerenciamento de dependências.
 - `README.md`: Instruções de uso e documentação.
 ---
