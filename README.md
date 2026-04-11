@@ -17,11 +17,11 @@ O projeto foi dividido em módulos:
 - `src/styles/`: Padronização de cores e temas.
 - `App.js`: Controlador principal de navegação e estado.
 
-## 📋 Pré-requisitos
+## Pré-requisitos
 - **Node.js**: Versão 18 ou superior.
 - **Expo Go**: Instalado no smartphone (Android ou iOS).
 
-## ⚙️ Como Executar
+## Como Executar
 
 1. **Clone ou baixe o repositório**:
    Certifique-se de que a pasta `src` e o arquivo `App.js` estejam na mesma raiz.
