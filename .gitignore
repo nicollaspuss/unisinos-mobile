@@ -33,6 +33,3 @@ ios/
 
 # Misc
 *.log
-
-# Ignorar package-lock apenas se não quiser versionar dependências (normalmente é recomendado manter)
-# package-lock.json

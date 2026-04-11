@@ -53,6 +53,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: COLORS.background, // Agora o fundo padrão é o bege, não o verde
+    backgroundColor: COLORS.background,
   },
 });
